@@ -1,0 +1,20 @@
+{
+  "name": "serverpracticeone",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "text.js",
+    "start": "nodemon --env-file=.env server.js"
+  },
+  "author": "Eoj Dev",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "joi": "^17.13.3"
+  }
+}
